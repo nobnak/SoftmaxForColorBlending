@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Linear
+  m_Name: ColorBlend_Softmax
   m_Shader: {fileID: 4800000, guid: a874af5f845941842b5b4a7c455a9250, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -70,6 +70,7 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
+    - _Temp: 0.02
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:

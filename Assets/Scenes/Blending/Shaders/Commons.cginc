@@ -2,13 +2,13 @@
 #define __BLENDER_COMMONS_INC__
 
 
-struct CellDatum {
-	float4 color;
-	float4 uvnpos;
+struct Cell {
+	int icolor;
+	float2 uv;
 };
 
-StructuredBuffer<CellDatum> _Cells;
+StructuredBuffer<float4> _Colors;
+StructuredBuffer<Cell> _Cells;
 int _Cells_Length;
-float4x4 _Clip_To_UV_Npos_Matrix;
 
 #endif
